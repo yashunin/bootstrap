@@ -12,8 +12,7 @@ module.exports = context => {
     plugins: {
       autoprefixer: {
         cascade: false
-      },
-      rtlcss: context.env === 'RTL'
+      }
     }
   }
 }
